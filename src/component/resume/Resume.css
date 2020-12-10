@@ -1,0 +1,58 @@
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 150px;
+    padding: 20px 0;
+}
+.education-left{
+    color: #263C41;
+    font-size: 50px;
+    font-weight: bold;
+}
+.education-right{
+    font-weight: 800;
+    text-align: left;
+}
+.skill-left{
+    color: #263C41;
+    font-size: 30px;
+    font-weight: bold;
+}
+.skill-right{
+    text-align: left;
+    font-weight: 800;
+}
+.persional-project-left{
+    color: #263C41;
+    font-size: 30px;
+    font-weight: bold;
+}
+.peresional-project-right{
+    text-align: left;
+}
+.peresional-project-right a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.peresional-project-right a:hover{
+    color: #263C41;
+}
+.persional-interest-left{
+    color: #263C41;
+    font-size: 30px;
+    font-weight: bold;
+}
+.persional-interest-right{
+    text-align: left;
+    font-weight: 800;
+}
+.career-left{
+    color: #263C41;
+    font-size: 30px;
+    font-weight: bold;
+}
+.career-right{
+    text-align: left;
+    font-weight: 800;
+}

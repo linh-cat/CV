@@ -1,0 +1,39 @@
+.about{
+    background-color: #263C41;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 380px;
+    color: #fff;    
+}
+.picture-persional-left{
+    padding-top: 70px;
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.content-right{
+    padding: 30px 0;
+    max-width: 70%;
+}
+.content-right .about-me{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.content-right .about-me h2{
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.content-right .contact-detail{
+    text-align: left;
+}
+.content-right .contact-detail h2{
+   font-size: 60px;
+   margin-bottom: 10px;
+}
+.address span{
+    color: #e7e8d1;
+    margin: 5px 0 ; 
+}

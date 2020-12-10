@@ -1,0 +1,92 @@
+#home {
+  height: 100vh;
+  background: url("../../image/banner-image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.header-top-black {
+  background: #2b484e;  
+}
+.header-icon a {
+  color: #fff;
+  margin-right: 30px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  margin-left: 10px;
+}
+.nav li a {
+  text-decoration: none;
+  font-weight: bold;
+
+  color: #fff;
+}
+.nav li a:hover {
+  color: orange;
+}
+.row-banner {
+  height: 200px;
+  padding-top: 200px;
+  padding-left: 50px;
+  margin-left: 90px;
+  max-width: 80%;
+}
+
+.banner {
+  position: relative;
+  scroll-snap-align: center;
+  color: #fff;
+  font-size: 1000;
+}
+.banner .margin-right {
+  margin-right: 20px;
+}
+
+.banner-text {
+  /* display: grid;
+  grid: 100% / repeat(4, 1fr);
+  padding: 5em 15em; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text .hover {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.banner-text h1 {
+  font-size: 70px;
+  color: transparent;
+  text-align: 0 1px 1px;
+  -webkit-text-stroke: 2px #fff;
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.banner-text .hover:hover h1 {
+  transform: scale(1.5);
+  color: #fff;
+  -webkit-text-stroke: 2px transparent;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.row-banner .description {
+  color: #fff;
+  font-weight: 800;
+  margin: 20px 0;
+}
+.header-icon {
+  margin-left: 30px;
+}
